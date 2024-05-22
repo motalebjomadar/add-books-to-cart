@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './Book.css'
 
 const Book = ({book, handleAddToCart}) => {
@@ -10,5 +11,9 @@ const Book = ({book, handleAddToCart}) => {
         </div>
     );
 };
+Book.propTypes = {
+    book: PropTypes.object.isRequired,
+    handleAddToCart: PropTypes.func.isRequired
+}
 
 export default Book;
