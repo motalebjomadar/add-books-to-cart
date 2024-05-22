@@ -1,0 +1,11 @@
+.books-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid red;
+}
+
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 1px solid red;
+}

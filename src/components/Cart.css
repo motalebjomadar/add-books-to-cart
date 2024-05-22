@@ -1,0 +1,24 @@
+
+.cart-style{
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid gold;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+    transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+
+.cart-style:hover{
+    background-color: coral;
+}
+
+.cart-container img{
+    width: 100px;
+} 
